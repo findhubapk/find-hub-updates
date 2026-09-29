@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Find Hub Update Center</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(135deg, #eef4ff, #f8fbff);
+            color: #222;
+        }
+
+        /* HEADER */
+
+        .header {
+            background: #2563eb;
+            color: white;
+            text-align: center;
+            padding: 45px 20px;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 42px;
+        }
+
+        .header p {
+            margin-top: 10px;
+            font-size: 18px;
+            opacity: 0.9;
+        }
+
+        /* MAIN */
+
+        .container {
+            max-width: 850px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        /* APP CARD */
+
+        .app-card {
+            background: white;
+            border-radius: 22px;
+            padding: 35px;
+            box-shadow: 0 10px 35px rgba(0,0,0,0.12);
+        }
+
+        .app-top {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+        }
+
+        .app-icon {
+            width: 110px;
+            height: 110px;
+            border-radius: 25px;
+            object-fit: cover;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.18);
+        }
+
+        .app-name {
+            font-size: 36px;
+            margin: 0 0 8px 0;
+        }
+
+        .app-description {
+            color: #666;
+            font-size: 17px;
+            margin: 0;
+        }
+
+        /* VERSION */
+
+        .version-box {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-top: 25px;
+        }
+
+        .badge {
+            background: #eef4ff;
+            color: #2563eb;
+            padding: 9px 14px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        /* DOWNLOAD */
+
+        .download-area {
+            margin-top: 30px;
+            padding-top: 30px;
+            border-top: 1px solid #eee;
+        }
+
+        .download-button {
+            display: block;
+            width: 100%;
+            background: #2563eb;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            padding: 18px;
+            border-radius: 12px;
+            font-size: 20px;
+            font-weight: bold;
+            transition: 0.2s;
+        }
+
+        .download-button:hover {
+            background: #1749b5;
+            transform: translateY(-2px);
+        }
+
+        .download-note {
+            text-align: center;
+            color: #777;
+            font-size: 13px;
+            margin-top: 12px;
+        }
+
+        /* WHAT'S NEW */
+
+        .updates {
+            background: white;
+            margin-top: 25px;
+            padding: 30px;
+            border-radius: 22px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+        }
+
+        .updates h2 {
+            margin-top: 0;
+        }
+
+        .updates li {
+            margin-bottom: 12px;
+            line-height: 1.5;
+        }
+
+        /* INSTALLATION */
+
+        .installation {
+            background: white;
+            margin-top: 25px;
+            padding: 30px;
+            border-radius: 22px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+        }
+
+        .installation h2 {
+            margin-top: 0;
+        }
+
+        .step {
+            margin: 15px 0;
+            padding: 15px;
+            background: #f7f9fc;
+            border-radius: 10px;
+        }
+
+        /* FOOTER */
+
+        footer {
+            text-align: center;
+            color: #777;
+            padding: 35px 20px;
+            font-size: 14px;
+        }
+
+        /* MOBILE */
+
+        @media (max-width: 600px) {
+
+            .header h1 {
+                font-size: 30px;
+            }
+
+            .app-card {
+                padding: 25px;
+            }
+
+            .app-top {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .app-name {
+                font-size: 30px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- HEADER -->
+
+    <div class="header">
+
+        <h1>Find Hub Update Center</h1>
+
+        <p>
+            Official download page for Find Hub
+        </p>
+
+    </div>
+
+
+    <!-- MAIN -->
+
+    <div class="container">
+
+
+        <!-- APP INFORMATION -->
+
+        <div class="app-card">
+
+            <div class="app-top">
+
+                <img
+                    src="images/find-hub-icon.png"
+                    alt="Find Hub Icon"
+                    class="app-icon"
+                >
+
+                <div>
+
+                    <h2 class="app-name">
+                        Find Hub
+                    </h2>
+
+                    <p class="app-description">
+                        Official Android Application
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- VERSION INFORMATION -->
+
+            <div class="version-box">
+
+                <span class="badge">
+                    Latest Version: 1.0
+                </span>
+
+                <span class="badge">
+                    Android
+                </span>
+
+                <span class="badge">
+                    APK
+                </span>
+
+                <span class="badge">
+                    55 KB
+                </span>
+
+            </div>
+
+
+            <!-- DOWNLOAD -->
+
+            <div class="download-area">
+
+                <a
+                    href="apk/Find-Hub.apk"
+                    class="download-button"
+                >
+                    ⬇️ Download Find Hub
+                </a>
+
+                <p class="download-note">
+                    Latest official APK release
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- WHAT'S NEW -->
+
+        <div class="updates">
+
+            <h2>
+                What's New
+            </h2>
+
+            <ul>
+
+                <li>
+                    Initial release of Find Hub.
+                </li>
+
+                <li>
+                    Bluetooth remote support.
+                </li>
+
+                <li>
+                    Custom sound assignment.
+                </li>
+
+                <li>
+                    Improved app interface.
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- INSTALLATION -->
+
+        <div class="installation">
+
+            <h2>
+                How to Install
+            </h2>
+
+            <div class="step">
+                <b>Step 1:</b>
+                Download the Find Hub APK.
+            </div>
+
+            <div class="step">
+                <b>Step 2:</b>
+                Open the downloaded APK on your Android device.
+            </div>
+
+            <div class="step">
+                <b>Step 3:</b>
+                Allow installation if Android asks for permission.
+            </div>
+
+            <div class="step">
+                <b>Step 4:</b>
+                Install Find Hub.
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        Find Hub Update Center<br>
+
+        © 2026 Find Hub
+
+    </footer>
+
+
+</body>
+
+</html>
